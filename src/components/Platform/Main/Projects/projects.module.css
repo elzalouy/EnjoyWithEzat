@@ -1,0 +1,39 @@
+
+.overlay{
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  overflow: hidden !important;
+  width: auto !important;
+  height: 0% !important;
+  transition: 0.5s !important;
+}
+.Container:hover .overlay {
+    height: 100% !important ;
+}
+.slideLinks{
+  position:-webkit-sticky !important;
+  position:sticky !important;
+  bottom:0% !important;
+  width: 100% !important;
+  top:100%;
+  padding: 20px !important;
+  text-align: center; 
+}
+.slideLinkIcon{
+  color: gold !important;
+  letter-spacing:2px !important;
+  transition:0.6s all !important;
+}
+.slideLinkIcon:hover{
+  color:ghostwhite !important;
+}
+.animate{
+  animation-name:animate !important;
+  animation-duration:1.5s !important;
+}
+@keyframes animate {
+  from{opacity:0 !important; margin-bottom: 3rem !important};
+  to{opacity:1 !important}
+}

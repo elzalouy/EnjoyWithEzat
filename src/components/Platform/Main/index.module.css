@@ -1,0 +1,62 @@
+
+.rightSection{
+    margin: 0 !important;
+    padding:0 !important;
+    height: 100% !important;
+    padding-bottom: 100px !important;
+    overflow: scroll !important;
+  }
+
+  
+  .rightSection .marginTop {
+    margin:0;
+  }
+  .rightSectionHeader {
+    height:320px !important;
+    padding:0 !important;
+    margin:0 !important;
+    color:white !important;
+    }
+  .rightSectionHeader .backCover{
+    background: linear-gradient(to bottom, transparent, #1e1e1e 65%),
+    url('../../../assits/background1.jpg');
+    /* Full height */
+    height: 100%;
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity:0.3;
+  }
+  
+  .rightSectionHeader .HeaderData {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height:70%;
+    width: 95%;
+    transform: translate(-50%, -50%);
+  }
+  .rightSectionHeader .header {
+    background: url('../../../assits/background1.jpg');
+    height: 340px !important;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     justify-content: center !important;
+     align-items: center !important;
+     text-align: center !important;
+  }
+  
+  @media screen and (max-width:992px) {
+    .rightSectionHeader .bgImgData{
+      width:100% !important;
+      height:100% !important;
+    }
+    .rightSectionHeader .HeaderData {
+      height:100%;
+      width: 100%;
+      top:50%;
+    }
+  }
+  

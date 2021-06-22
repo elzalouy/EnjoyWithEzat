@@ -1,0 +1,27 @@
+.App{
+    height: 100%;    
+    width: 100%;
+    scroll-behavior:  smooth;
+}
+.App .row{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+.nav{
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px !important;
+  }
+  ::-webkit-scrollbar-track {
+      width: 0px !important;
+      height:0px !important;  
+  }
+  ::-webkit-scrollbar-thumb {
+    width: 0px !important;
+    height:0px !important;  
+}

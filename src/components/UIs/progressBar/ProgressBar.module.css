@@ -1,0 +1,22 @@
+.progressRingCircle {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: 0.35s stroke-dashoffset;
+}
+
+.svg {
+  display: block !important;
+  height: auto !important;
+  width: auto !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items:center !important;
+}
+.svg circle {
+  fill: transparent;
+  stroke: gold;
+  stroke-width: 3px !important;
+  animation:animate 1s linear;
+}
+@keyframes animate {
+}
