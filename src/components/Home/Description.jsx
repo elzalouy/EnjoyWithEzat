@@ -5,8 +5,8 @@ const Description = () => {
     const data=useSelector(state=>state.Person);
   return (
     <Fragment>
-      <h1>{data.name}</h1>
-      <h5>{data.jobTitle}</h5>
+      <h4 className='bolder-3'>{data.name}</h4>
+      <h5 >{data.jobTitle}</h5>
     </Fragment>
   );
 };

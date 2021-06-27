@@ -5,7 +5,10 @@ import classes from "../index.module.css";
 const Header = () => {
   const dispatch = useDispatch();
 
-  const handleMenuToggle = function () {
+  const handleSectionToggle=()=>{
+    dispatch(UiActions.switch('achievments'));
+  }
+  const handleMenuToggle =  ()=> {
     dispatch(UiActions.menu(true));
   };
   return (
@@ -23,7 +26,7 @@ const Header = () => {
               <h1 className="bolder-1 large-1 my-4">
                 Discover my Amazing Art Space!
               </h1>
-              <button className="Btn px-4 py-2 border-0 bgGold">EXPOLRE NOW</button>
+              <button className="Btn px-4 py-2 border-0 bgGold" onClick={handleSectionToggle}>EXPOLRE NOW</button>
             </div>
           </div>
         </div>

@@ -29,6 +29,15 @@
 .slideLinkIcon:hover{
   color:ghostwhite !important;
 }
+.categories{
+  overflow: scroll !important;
+  white-space: nowrap !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.categories li{
+  display: inline-block !important;
+  }
 .animate{
   animation-name:animate !important;
   animation-duration:1.5s !important;

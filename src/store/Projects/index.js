@@ -1,14 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 import initialState from "./initialState";
+import reducers from "./reducers";
 
 const ProjectsSlice = createSlice({
   name: "projects",
   initialState,
-  reducers: {
-    selectProjectsByType(state,action){
-      state.selectedProjects=state.projects.filter(item=>item.type===action.payload);
-    }
-  },
+  reducers:reducers
 });
-export const PersonActions = ProjectsSlice.actions;
+
+export const ProjectsActions = ProjectsSlice.actions;
 export default ProjectsSlice.reducer;
