@@ -18,7 +18,7 @@ const ProgressBar = (props) => {
           strokeDashoffset: circumference - value / 100 * circumference,
         }}
       />
-      <text x={25} y={30} textAnchor='middle' stroke='white' fontSize='12px' fontWeight='lighter' strokeWidth='0.4'>{value}%</text>
+      <text x={25} y={30} textAnchor='middle' stroke='white' fontSize='12px' fontWeight='lighter' strokeWidth='0.6'>{value}%</text>
     </svg>
   );
 };

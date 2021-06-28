@@ -1,0 +1,29 @@
+{
+  "short_name": "Ezat Elzalouy",
+  "name": "Ezat Elzalouy is a software developer",
+  "icons": [
+    {
+      "src": "handshakesolid.svg",
+      "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+      "src": "handshakesolid.svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "handshakesolid.svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.google.samples.apps.iosched"
+    }
+  ]
+}
