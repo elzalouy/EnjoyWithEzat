@@ -6,5 +6,4 @@ const Achievements = () => {
         </Fragment>
     );
 }
- 
 export default Achievements;

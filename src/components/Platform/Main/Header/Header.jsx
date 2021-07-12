@@ -6,11 +6,12 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const handleSectionToggle=()=>{
-    dispatch(UiActions.switch('achievments'));
+    dispatch(UiActions.Switch('achievments'));
   }
   const handleMenuToggle =  ()=> {
-    dispatch(UiActions.menu(true));
+    dispatch(UiActions.Menu(true));
   };
+  
   return (
     <div className={classes.rightSectionHeader + " col-12 justify-content-start align-items-start"}>
       <div className={classes.backCover + " col-lg"}></div>

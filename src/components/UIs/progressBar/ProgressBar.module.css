@@ -14,9 +14,6 @@
 }
 .svg circle {
   fill: transparent;
-  stroke: gold;
+  stroke: gold !important;
   stroke-width: 3px !important;
-  animation:animate 1s linear;
-}
-@keyframes animate {
 }

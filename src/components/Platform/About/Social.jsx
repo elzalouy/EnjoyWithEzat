@@ -10,6 +10,7 @@ const SocialItems = () => {
             href={item.link}
             className={"Btn m-0 p-0"}
             target="blank"
+            id={item.name}
           >
             <i className={  "Btn  gray p-2 m-0 bi " + item.icon}></i>
           </a>

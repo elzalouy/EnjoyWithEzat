@@ -10,8 +10,13 @@ const Switch = (state, action) => {
 };
 
 // Making about section responsive on mobile.
-const menu = (state, action) => {
+const Menu = (state, action) => {
   if(typeof action.payload === "boolean") state.menu = action.payload;
 };
-const exports={switch:Switch,menu:menu};
+
+// input error
+const inputError=(state,action)=>{
+  if(typeof action.payload === 'string' ) state.error=action.payload;
+}
+const exports={Switch,Menu,inputError};
 export default exports;

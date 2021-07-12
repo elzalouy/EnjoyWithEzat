@@ -5,10 +5,10 @@ const Knowledges = () => {
   const knowledges = useSelector((state) => state.Person.knowledges);
   return (
     <Fragment>
-          <div className="row text-left w-100">
-            <div className="col-12 text-left ph-2 pb-3">Knowledge</div>
+          <div className="row w-100 m-0 p-0">
+            <div className="col-12 text-left pb-3">Knowledge</div>
             {knowledges && knowledges.map((item) => (
-              <div className="col-12 text-left ph-2 pb-2 gray" key={item}>
+              <div className="col-12 text-left ph-2 pb-2 gray" key={item} id={item}>
                 <i className="fas fa-check small-2 bolder gold pr-2"></i>
                 {item}
               </div>

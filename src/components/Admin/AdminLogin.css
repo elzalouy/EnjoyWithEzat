@@ -1,0 +1,33 @@
+input{
+  border-width: 0px 0px 1px 0px !important;
+  border-radius: 0 !important;
+    background-color: transparent !important;
+    box-shadow: transparent;
+}
+.Page{
+  padding: 0;
+  margin: 0;
+  height: 100% !important;
+  width: 100% !important;
+  overflow: hidden;
+  color: white;
+  background-color: gold ;
+}
+.Form{
+  border-radius: 5px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #1e1e1e !important;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.Form-Submit{
+  border-radius: 0px !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color:#252526 !important;
+  color: white !important;
+  width: 100%;
+}
+.Form-Submit:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

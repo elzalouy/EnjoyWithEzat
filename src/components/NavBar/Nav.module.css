@@ -10,14 +10,14 @@
     z-index: 1;
 }
 .navBlack{
-    background-color: #212529;
+    background-color: #1e1e1e;
     color: white;
     animation-name: switchBlack;
     animation-duration: 1s;
 }
 .navGold{
     background-color:gold;
-    color: #212529;
+    color: #1e1e1e;
     animation-name: switchGold;
     animation-duration: 1s;
 }
@@ -51,10 +51,10 @@
 }
 @keyframes switchBlack {
     from {background-color: gold}
-    to {background-color:#212529}
+    to {background-color:#1e1e1e}
 }
 
 @keyframes switchGold {
-    from {background-color: #212529}
+    from {background-color: #1e1e1e}
     to {background-color:gold}
 }

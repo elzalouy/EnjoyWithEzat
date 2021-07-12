@@ -9,7 +9,7 @@ const UiinitialState = {
       color: "black",
       icon: "bi bi-file-earmark-richtext",
     },
-    { key: 2, name: "achievments", color: "black", icon: "fas fa-tasks" },
+    { key: 2, name: "achievements", color: "black", icon: "fas fa-tasks" },
     {
       key: 3,
       name: "Awards&Certifications",

@@ -3,7 +3,7 @@ import classes from "./projects.module.css";
 import devmix from "../../../../assits/devmix.png";
 const Item = (props) => {
   return (
-    <div className={classes.Container + " col-lg-5 m-1 p-0 overflow-h "}>
+    <div className={classes.Container + " col-lg-5 m-1 p-0 overflow-h shadow-1"}>
       <img src={devmix} alt="" className=" d-block w-100 h-auto p-0" />
       <div className={classes.overlay + " text-left bg-3 opacity-9"}>
         <div className="p-3">

@@ -1,4 +1,4 @@
-import reducer, {PersonActions} from '../../../store/Profile';
+import reducer from '../../../store/Profile';
 const initialState = {
     name: "EZAT ELZALOUY",
     country: "Egypt",
