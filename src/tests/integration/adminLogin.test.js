@@ -34,3 +34,5 @@ describe('Admin login component',()=>{
         expect(store.dispatch).toHaveBeenLastCalledWith(AdminActions.onHandleChange({element:"email",value:"eza"}));
     });
 });
+
+
