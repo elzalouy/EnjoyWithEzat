@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component:- component should be rendered:- 1`] = `
+<ul
+  className="nav Shadow navBlack"
+>
+  <li
+    className="navItem active"
+    onClick={[Function]}
+  >
+    <i
+      className="bi bi-person"
+    />
+  </li>
+  <li
+    className="navItem"
+    onClick={[Function]}
+  >
+    <i
+      className="bi bi-file-earmark-richtext"
+    />
+  </li>
+  <li
+    className="navItem"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-tasks"
+    />
+  </li>
+  <li
+    className="navItem"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-award"
+    />
+  </li>
+</ul>
+`;

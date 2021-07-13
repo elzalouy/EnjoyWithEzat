@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home > Description Section :  component should be rendered with a state from redux store 1`] = `
+Array [
+  <h4
+    className="bolder-3"
+  >
+    Ezat Elzalouy
+  </h4>,
+  <h5>
+    MERN stack developer
+  </h5>,
+]
+`;
+
+exports[`Home > Social Section component should be rendered with a state from redux store 1`] = `
+Array [
+  <a
+    href="https://www.facebook.com/Eng.ezat.elzalouy/"
+    target="blank"
+  >
+    <i
+      className="col-1 p-2 bi bi-facebook"
+    />
+  </a>,
+  <a
+    href="https://twitter.com/Ezat_Elzalouy/"
+    target="blank"
+  >
+    <i
+      className="col-1 p-2 bi bi-twitter"
+    />
+  </a>,
+  <a
+    href="https://www.linkedin.com/in/ezat-elzalouy-844bb0133/"
+    target="blank"
+  >
+    <i
+      className="col-1 p-2 bi bi-linkedin"
+    />
+  </a>,
+  <a
+    href="https://github.com/elzalouy"
+    target="blank"
+  >
+    <i
+      className="col-1 p-2 bi bi-github"
+    />
+  </a>,
+]
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin login component it should render with given state from redux store 1`] = `
+<div
+  className="Page"
+  name="page"
+>
+  <div
+    className="row m-4"
+  >
+    <div
+      className="col-sm-4"
+    />
+    <div
+      className="Form col-md-4 Shadow-1"
+    >
+      <i
+        className="fas fa-user-tie large-5 pv-2"
+      />
+      <form
+        className="row pt-5"
+        name="adminloginform"
+        onSubmit={[Function]}
+      >
+        <div
+          className="col-12 row pv-2 text-left"
+        >
+          <label
+            className="form-label col-2 pt-2"
+            htmlFor="email"
+          >
+            <i
+              className="fas fa-at"
+            />
+          </label>
+          <input
+            className="form-control col-10"
+            id="email"
+            name="email"
+            onChange={[Function]}
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="col-12 row pv-2 text-left"
+        >
+          <label
+            className="form-label col-2 pt-2"
+            htmlFor="password"
+          >
+            <i
+              className="fas fa-lock"
+            />
+          </label>
+          <input
+            className="form-control col-10"
+            id="password"
+            name="password"
+            onChange={[Function]}
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          className="btn Form-Submit"
+          type="submit"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

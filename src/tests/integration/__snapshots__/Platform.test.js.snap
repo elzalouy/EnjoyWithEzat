@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Platform > Main > Header should be rendered with redux state 1`] = `
+<div
+  className="rightSectionHeader col-12 justify-content-start align-items-start"
+>
+  <div
+    className="backCover col-lg"
+  />
+  <div
+    className="HeaderData col-12 p-0"
+  >
+    <div
+      className="d-lg-none text-left justify-content-start nav p-3 m-0"
+    >
+      <li
+        onClick={[Function]}
+      >
+        <i
+          className="fas fa-bars cursor gray hover-gold"
+        />
+      </li>
+    </div>
+    <div
+      className="header col-12"
+    >
+      <div
+        className="row justify-content-start text-left align-items-center mx-lg-5"
+      >
+        <div
+          className="col-12 m-0 p-0"
+        >
+          <h1
+            className="bolder-1 large-1 my-4"
+          >
+            Discover my Amazing Art Space!
+          </h1>
+          <button
+            className="Btn px-4 py-2 border-0 bgGold"
+            onClick={[Function]}
+          >
+            EXPOLRE NOW
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Platform > Main > Header should handles opening the about menu 1`] = `
+<div
+  className="rightSectionHeader col-12 justify-content-start align-items-start"
+>
+  <div
+    className="backCover col-lg"
+  />
+  <div
+    className="HeaderData col-12 p-0"
+  >
+    <div
+      className="d-lg-none text-left justify-content-start nav p-3 m-0"
+    >
+      <li
+        onClick={[Function]}
+      >
+        <i
+          className="fas fa-bars cursor gray hover-gold"
+        />
+      </li>
+    </div>
+    <div
+      className="header col-12"
+    >
+      <div
+        className="row justify-content-start text-left align-items-center mx-lg-5"
+      >
+        <div
+          className="col-12 m-0 p-0"
+        >
+          <h1
+            className="bolder-1 large-1 my-4"
+          >
+            Discover my Amazing Art Space!
+          </h1>
+          <button
+            className="Btn px-4 py-2 border-0 bgGold"
+            onClick={[Function]}
+          >
+            EXPOLRE NOW
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Platofrm > About > Info should be rendered with redux state 1`] = `
+<div
+  className="row bg-2 white p-0 m-0 pt-4 small"
+>
+  <div
+    className="col-6 pt-2 gray"
+  >
+    Country:
+  </div>
+  <div
+    className="col-6 pt-2 "
+    id="country"
+  >
+    egypt
+  </div>
+  <div
+    className="col-6 pt-2 gray"
+  >
+    City:
+  </div>
+  <div
+    className="col-6 pt-2 "
+    id="city"
+  >
+    Mansoura
+  </div>
+  <div
+    className="col-6 pt-2 gray"
+  >
+    Age:
+  </div>
+  <div
+    className="col-6 pt-2 "
+    id="age"
+  >
+    25
+  </div>
+  <div
+    className="col-10 gray line mv-1"
+  />
+</div>
+`;
+
+exports[`Platofrm > About > Intro should be rendered with redux state 1`] = `
+Array [
+  <h6
+    className="white pt-2"
+    id="name"
+  >
+    ezat elzalouy
+  </h6>,
+  <p
+    className="gray small-1 p-0 m-0"
+    id="jobTitle"
+  >
+    MERN stack developer
+  </p>,
+]
+`;
+
+exports[`Platofrm > About > Knowledges should be renderd with redux state 1`] = `
+Array [
+  <div
+    className="row w-100 m-0 p-0"
+  >
+    <div
+      className="col-12 text-left pb-3"
+    >
+      Knowledge
+    </div>
+    <div
+      className="col-12 text-left ph-2 pb-2 gray"
+      id="Node.js, Express.js, Next.js"
+    >
+      <i
+        className="fas fa-check small-2 bolder gold pr-2"
+      />
+      Node.js, Express.js, Next.js
+    </div>
+    <div
+      className="col-12 text-left ph-2 pb-2 gray"
+      id="NoSqlDB, SqlDB, firebase"
+    >
+      <i
+        className="fas fa-check small-2 bolder gold pr-2"
+      />
+      NoSqlDB, SqlDB, firebase
+    </div>
+    <div
+      className="col-12 text-left ph-2 pb-2 gray"
+      id="React.js, Hooks, Redux"
+    >
+      <i
+        className="fas fa-check small-2 bolder gold pr-2"
+      />
+      React.js, Hooks, Redux
+    </div>
+    <div
+      className="col-12 text-left ph-2 pb-2 gray"
+      id="Sass, Less, Bootstrap"
+    >
+      <i
+        className="fas fa-check small-2 bolder gold pr-2"
+      />
+      Sass, Less, Bootstrap
+    </div>
+    <div
+      className="col-12 text-left ph-2 pb-2 gray"
+      id="UML, SCRUM, Agile"
+    >
+      <i
+        className="fas fa-check small-2 bolder gold pr-2"
+      />
+      UML, SCRUM, Agile
+    </div>
+  </div>,
+  <div
+    className="col-10 gray line mv-1"
+  />,
+]
+`;
+
+exports[`Platofrm > About > Progress Should be rendered with redux store 1`] = `
+Array [
+  <div
+    className="row w-100 p-0 m-0"
+  >
+    <div
+      className="col-12 text-left pb-3"
+    >
+      Languages
+    </div>
+    <div
+      className="col-4 p-0 m-0"
+    >
+      <div
+        className="row text-center"
+      >
+        <svg
+          className="svg"
+          height="60"
+          width="50"
+        >
+          <circle
+            className="progressRingCircle"
+            cx={30}
+            cy={30}
+            fill="transparent"
+            r={22}
+            style={
+              Object {
+                "strokeDasharray": "138.23007675795088 138.23007675795088",
+                "strokeDashoffset": 1.3823007675795225,
+              }
+            }
+          />
+          <text
+            fontSize="10px"
+            fontWeight="lighter"
+            stroke="white"
+            strokeWidth="0.7"
+            textAnchor="middle"
+            x={25}
+            y={30}
+          >
+            99
+            %
+          </text>
+        </svg>
+        <div
+          className="w-100"
+          id="Arabic"
+        >
+          Arabic
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-4 p-0 m-0"
+    >
+      <div
+        className="row text-center"
+      >
+        <svg
+          className="svg"
+          height="60"
+          width="50"
+        >
+          <circle
+            className="progressRingCircle"
+            cx={30}
+            cy={30}
+            fill="transparent"
+            r={22}
+            style={
+              Object {
+                "strokeDasharray": "138.23007675795088 138.23007675795088",
+                "strokeDashoffset": 20.734511513692638,
+              }
+            }
+          />
+          <text
+            fontSize="10px"
+            fontWeight="lighter"
+            stroke="white"
+            strokeWidth="0.7"
+            textAnchor="middle"
+            x={25}
+            y={30}
+          >
+            85
+            %
+          </text>
+        </svg>
+        <div
+          className="w-100"
+          id="English"
+        >
+          English
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-4 p-0 m-0"
+    >
+      <div
+        className="row text-center"
+      >
+        <svg
+          className="svg"
+          height="60"
+          width="50"
+        >
+          <circle
+            className="progressRingCircle"
+            cx={30}
+            cy={30}
+            fill="transparent"
+            r={22}
+            style={
+              Object {
+                "strokeDasharray": "138.23007675795088 138.23007675795088",
+                "strokeDashoffset": 110.5840614063607,
+              }
+            }
+          />
+          <text
+            fontSize="10px"
+            fontWeight="lighter"
+            stroke="white"
+            strokeWidth="0.7"
+            textAnchor="middle"
+            x={25}
+            y={30}
+          >
+            20
+            %
+          </text>
+        </svg>
+        <div
+          className="w-100"
+          id="Francais"
+        >
+          Francais
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="col-10 gray line mv-1 h-100"
+  />,
+]
+`;
+
+exports[`Platofrm > About > Social should be rendere with redux state 1`] = `
+<div
+  className="footer  bg-3"
+>
+  <a
+    className="Btn m-0 p-0"
+    href="https://www.facebook.com/Eng.ezat.elzalouy/"
+    id="facebook"
+    target="blank"
+  >
+    <i
+      className="Btn  gray p-2 m-0 bi bi-facebook"
+    />
+  </a>
+  <a
+    className="Btn m-0 p-0"
+    href="https://twitter.com/Ezat_Elzalouy/"
+    id="twitter"
+    target="blank"
+  >
+    <i
+      className="Btn  gray p-2 m-0 bi bi-twitter"
+    />
+  </a>
+  <a
+    className="Btn m-0 p-0"
+    href="https://www.linkedin.com/in/ezat-elzalouy-844bb0133/"
+    id="linkedin"
+    target="blank"
+  >
+    <i
+      className="Btn  gray p-2 m-0 bi bi-linkedin"
+    />
+  </a>
+  <a
+    className="Btn m-0 p-0"
+    href="https://github.com/elzalouy"
+    id="github"
+    target="blank"
+  >
+    <i
+      className="Btn  gray p-2 m-0 bi bi-github"
+    />
+  </a>
+</div>
+`;
+
+exports[`Platofrm > Main > Brief should be rendered with redux state 1`] = `
+<div
+  className="row mt-lg-0 pt-lg-0 mt-5 pt-2 h-auto"
+>
+  <div
+    className="col-sm-3 col-6 small white p-sm-1 mt-5"
+  >
+    <span
+      className="gold bolder  medium"
+      id="years"
+    >
+      2
+      +
+    </span>
+     Years Experience
+  </div>
+  <div
+    className="col-sm-3 col-6 small white p-sm-1 mt-5"
+  >
+    <span
+      className="gold bolder  medium"
+      id="projects"
+    >
+      12
+    </span>
+     Completed Projects
+  </div>
+</div>
+`;
