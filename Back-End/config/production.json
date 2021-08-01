@@ -1,3 +1,5 @@
 {
-    "FrontEndApp":"https://ezat-elzalouy.herokuapp.com/"
+    "name": "EnjoyWithEzat test",
+    "FrontEndUrl": "https://enjoywithezat.herokuapp.com/",
+    "connectionString": "mongodb://localhost:27017/EzatTestDb"
 }

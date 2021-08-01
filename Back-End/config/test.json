@@ -1,3 +1,5 @@
 {
-    "FrontEndApp":"http://localhost:3000/"
+    "name": "EnjoyWithEzat test",
+    "FrontEndUrl": "http://localhost:3000/",
+    "connectionString": "mongodb://localhost:27017/EzatTestDb"
 }
